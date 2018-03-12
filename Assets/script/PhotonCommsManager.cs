@@ -19,14 +19,14 @@ public class PhotonCommsManager : MonoBehaviour {
 	{
 		Debug.Log ("join room success");
 		// instantiate user avatar locally and spawns in remote instances
-		if (PhotonNetwork.isMasterClient)
-		{
-			PhotonNetwork.Instantiate ("HostVR", new Vector3 (0, 0, -4), Quaternion.identity, 0);
-		}
-		else
-		{
-			PhotonNetwork.Instantiate ("ClienAR", new Vector3 (0, 0, 4), Quaternion.identity, 0);
-		}
+		//if (PhotonNetwork.isMasterClient)
+		//{
+	    //	PhotonNetwork.Instantiate ("HostVR", new Vector3 (0, 0, -4), Quaternion.identity, 0);
+		//}
+		//else
+		//{
+		//	PhotonNetwork.Instantiate ("ClienAR", new Vector3 (0, 0, 4), Quaternion.identity, 0);
+		//}
 
 	}
 
